@@ -38,7 +38,7 @@ main {
 #reflect {
   position: absolute;
   width: 350px;
-  bottom: -44%;
+  bottom: -31%;
   left: 50%;
   transform: translate(-50%, -51%) rotate(180deg);
   background: linear-gradient(transparent 50%, rgba(160, 156, 156, 0.281));
@@ -56,12 +56,16 @@ main {
   opacity: 0.3;
 }
 
+p {
+  margin: 0;
+}
+
 p:nth-child(1) {
   font-size: 3.5em;
   color: #fff;
   padding: 10px 5px;
   background: chocolate;
-  position: relative;
+  border-radius: 10px 10px 0 0;
 }
 
 p:nth-child(2) {

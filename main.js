@@ -1,3 +1,4 @@
+//Turn off custom reflect effect for chrome so -webkit-box-reflect could show//
 window.onload = function () {
   var chrome = window.chrome;
   var reflect = document.getElementById("reflect");
@@ -6,6 +7,7 @@ window.onload = function () {
   }
 };
 
+//calendar//
 var date = new Date();
 
 var dayString = new Array(
